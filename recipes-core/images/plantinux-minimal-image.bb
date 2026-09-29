@@ -15,6 +15,7 @@ IMAGE_FSTYPES = "tar tar.zst wic wic.gz"
 
 IMAGE_INSTALL:append = " \
 	sunxi-tools \
+	kernel-modules \
 "
 
 EXTRA_IMAGE_FEATURES += "debug-tweaks"
