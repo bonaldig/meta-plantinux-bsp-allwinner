@@ -16,3 +16,5 @@ IMAGE_FSTYPES = "tar tar.zst wic wic.gz"
 IMAGE_INSTALL:append = " \
 	sunxi-tools \
 "
+
+EXTRA_IMAGE_FEATURES += "debug-tweaks"
