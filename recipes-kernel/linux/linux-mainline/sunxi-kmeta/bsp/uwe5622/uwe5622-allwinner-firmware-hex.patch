@@ -11,7 +11,7 @@ embedded image instead of requesting a separate wcnmodem.bin at runtime.
 diff --git a/drivers/net/wireless/uwe5622/unisocwcn/Makefile b/drivers/net/wireless/uwe5622/unisocwcn/Makefile
 --- a/drivers/net/wireless/uwe5622/unisocwcn/Makefile
 +++ b/drivers/net/wireless/uwe5622/unisocwcn/Makefile
-@@
+@@ -318,11 +318,11 @@
  ### ---------- Allwinner start ---------- ###
  ifeq ($(CONFIG_AW_WIFI_DEVICE_UWE5622),y)
  #### add cflag ######
