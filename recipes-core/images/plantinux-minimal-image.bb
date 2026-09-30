@@ -17,14 +17,17 @@ IMAGE_INSTALL:append = " \
 	sunxi-tools \
 	kernel-modules \
 	iw \
-	wpa-supplicant \
+	bluez5 \
+	openssh \
+	openssh-sshd \
 "
 
 IMAGE_INSTALL:append:orangepi-zero3 = " \
-	uwe5622-firmware
-	orangepi-wifi-config
+	uwe5622-firmware \
+	wpa-supplicant \
+	orangepi-wifi-config \
 "
 
 EXTRA_IMAGE_FEATURES += " \
-	debug-tweaks
+	debug-tweaks \
 "
