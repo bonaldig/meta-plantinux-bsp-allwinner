@@ -16,6 +16,9 @@ IMAGE_FSTYPES = "tar tar.zst wic wic.gz"
 IMAGE_INSTALL:append = " \
 	sunxi-tools \
 	kernel-modules \
+	iw \
 "
+
+IMAGE_INSTALL:append:orangepi-zero3 = " uwe5622-firmware"
 
 EXTRA_IMAGE_FEATURES += "debug-tweaks"
