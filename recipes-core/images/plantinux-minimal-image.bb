@@ -17,8 +17,14 @@ IMAGE_INSTALL:append = " \
 	sunxi-tools \
 	kernel-modules \
 	iw \
+	wpa-supplicant \
 "
 
-IMAGE_INSTALL:append:orangepi-zero3 = " uwe5622-firmware"
+IMAGE_INSTALL:append:orangepi-zero3 = " \
+	uwe5622-firmware
+	orangepi-wifi-config
+"
 
-EXTRA_IMAGE_FEATURES += "debug-tweaks"
+EXTRA_IMAGE_FEATURES += " \
+	debug-tweaks
+"
