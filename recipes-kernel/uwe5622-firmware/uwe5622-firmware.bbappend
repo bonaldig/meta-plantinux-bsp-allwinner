@@ -1,1 +1,0 @@
-COMPATIBLE_MACHINE:append:orangepi-zero3 = "|orangepi-zero3"
